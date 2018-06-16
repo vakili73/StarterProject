@@ -252,7 +252,7 @@ module.exports = {
     ***************************************************************************/
     onlyAllowOrigins: [
       'http://localhost',
-      'https://evening-stream-26892.herokuapp.com/',
+      'https://evening-stream-26892.herokuapp.com',
     ],
 
 
@@ -337,7 +337,7 @@ module.exports = {
   * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-  // port: 80,
+  port: 80,
 
 
 
@@ -371,7 +371,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://example.com',
+    baseUrl: 'https://localhost',
     internalEmailAddress: 'support@example.com',
 
     // mailgunDomain: 'mg.example.com',
