@@ -8,6 +8,8 @@ WORKDIR $HOME/StarterProject
 
 RUN npm install
 
+ENV PATH=$HOME/StarterProject/node_modules/.bin:$PATH
+
 CMD [ "sails", "lift" ]
 
 EXPOSE 1337
