@@ -3,7 +3,5 @@ node_js:
   - 8
 install:
   - npm install && npm install eslint
-before_script:
-  - export PATH=$HOME/starter-project/node_modules/eslint/bin:$PATH
 script:
   - npm test
