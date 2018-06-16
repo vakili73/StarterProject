@@ -1,5 +1,7 @@
 # starter-project
 
+[![Build Status](https://travis-ci.org/vakili73/StarterProject.svg?branch=master)](https://travis-ci.org/vakili73/StarterProject)
+
 a [Sails v1](https://sailsjs.com) application
 
 
