@@ -34,7 +34,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vakili/starter-project.git"
+    "url": "git@github.com:vakili73/StarterProject.git"
   },
   "author": "vakili",
   "license": "",
